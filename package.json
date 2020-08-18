@@ -4,7 +4,8 @@
   "description": "An app to convert currency",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha test/**/*.js",
+    "debug": "nodemon --inspect server.js"
   },
   "keywords": [
     "Express",
