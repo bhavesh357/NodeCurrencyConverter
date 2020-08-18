@@ -15,8 +15,22 @@ describe('Currency Converter Test', () => {
             .get('/currency')
             .end( ( err , response ) => {
                 result = response.body;
-                console.log(result);
                 assert.equal(result.length,10);
+                done();
+            } );
+        });
+
+        it('GET /currency/convert returns converted currency', (done) => {
+            chai.request(app)
+            .get('/currency/convert')
+            .send({
+                'currencyOne':'USD',
+                'currencyTwo':'INR',
+            })
+            .end( ( err , response ) => {
+                result = response.body;
+                console.log(result);
+                assert.equal(result.value,74.5809);
                 done();
             } );
         });

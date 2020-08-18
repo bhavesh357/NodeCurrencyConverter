@@ -14,6 +14,8 @@ const currency= new Controller();
 module.exports = (app) => {
     app.get('/currency/', currency.findAll);
 
+    app.get('/currency/convert', currency.convert);
+
     app.post('/currency/', currency.add );
 };
 

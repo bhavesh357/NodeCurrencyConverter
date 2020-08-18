@@ -1,5 +1,6 @@
 // importing db schema
 const Currency = require('../model/currencyModel');
+const logger = require('../config/logger');
 
 
 /**
@@ -24,6 +25,12 @@ module.exports = class currencyService {
             });
     }
 
+    /**
+     * @description function to add the value
+     * @param {object} reqBody body of the request
+     * @param {object} res response 
+     * @param {object} callback callback function
+     */
     save(reqBody,res,callback){
         const currency = new Currency({
             shortName: reqBody.shortName,
@@ -37,6 +44,44 @@ module.exports = class currencyService {
         .catch((err) => {
             callback(res,{'error':'couldn\'t create currency'})
         });
+    }
+
+    /**
+     * @description function to add the value
+     * @param {object} reqBody body of the request
+     * @param {object} res response 
+     * @param {object} callback callback function
+     */
+    convert(reqBody,res,callback){
+        logger.info(reqBody);
+        callback(res,{'value':this.getRate(reqBody.currencyOne,reqBody.currencyTwo)});
+    }
+
+    /**
+     * @description function to get rate
+     * @param {object} currencyOne
+     * @param {object} currencyTwo
+     */
+    getRate(currencyOne,currencyTwo){
+        logger.info(currencyOne,currencyTwo);
+        const value = this.convertToBase(currencyOne)/this.convertToBase(currencyTwo);
+        logger.info(value);
+        return value;
+    }
+
+    /**
+     * @description function to get converted to base unit
+     * @param {object} currency
+     */
+    convertToBase(currency){
+        console.log(currency);
+        if(currency==='USD'){
+            return 74.5809;
+        }
+        if(currency==='INR'){
+            return 1;
+        }
+        throw new Error('Invalid Currency'); 
     }
 
 };
