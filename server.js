@@ -4,6 +4,9 @@
  */
 const express = require('express');
 
+// importing swagger jsdoc and ui
+const swaggerJSDoc = require('swagger-jsdoc');
+const swaggerUI = require('swagger-ui-express');
 
 /**
  * @description importing cors to allow cross origin requests
@@ -46,6 +49,24 @@ require('./config/dbConfig');
  * passing app as param
  */
 require('./routes/currencyRts')(app);
+
+//swagger options
+const swaggerOptions = {
+    swaggerDefinition: {
+        info: {
+            title: 'Currency Converter API',
+            description: 'Currency Converter api to convert currencies',
+            contact:{
+                name: 'Bhavesh Kadam'
+            },
+            servers: ['http://localhost:3000']
+        }
+    },
+    apis: ["./routes/currencyRts.js"]
+}
+
+const swaggerDocs = swaggerJSDoc(swaggerOptions);
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 
 // checking if the server is running
 app.listen(3000, () => {

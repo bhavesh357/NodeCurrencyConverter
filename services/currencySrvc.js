@@ -53,8 +53,12 @@ module.exports = class currencyService {
     * @param {object} callback callback function
     */
     convert(reqBody,res,callback){
-        logger.info(reqBody);
-        callback(res,{'value':this.getRate(reqBody.currencyOne,reqBody.currencyTwo)});
+        try{
+            logger.info(reqBody);
+            callback(res,{'value':this.getRate(reqBody.currencyOne,reqBody.currencyTwo)});
+        }catch (err){
+            callback(res,res.status(500).send({'error':err.message}));
+        }
     }
     
     /**

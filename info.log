@@ -207,3 +207,157 @@
 {"message":"JPY","level":"info","timestamp":"2020-08-19T10:13:48.386Z"}
 {"message":0.08942402478524153,"level":"info","timestamp":"2020-08-19T10:13:48.386Z"}
 {"message":0.0894,"level":"info","timestamp":"2020-08-19T10:13:48.386Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:46:18.105Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:46:18.132Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:46:18.134Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:46:23.854Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:46:23.885Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:46:23.887Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:48:29.348Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:48:29.374Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:48:29.377Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:49:08.233Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:49:08.266Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:49:08.268Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:51:46.529Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:51:46.558Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:51:46.561Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:52:00.826Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:52:00.858Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:52:00.860Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:52:31.381Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:52:31.412Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:52:31.414Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:53:10.067Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:53:10.097Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:53:10.100Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:55:11.458Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:55:11.484Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:55:11.488Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:55:22.550Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:55:22.579Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:55:22.583Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:56:51.787Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:56:51.813Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:56:51.815Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:57:28.249Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:57:28.290Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:57:28.292Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:57:46.202Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:57:46.252Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:57:46.258Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:57:49.405Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:57:49.432Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:57:49.435Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:04:24.635Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:04:24.677Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:04:24.681Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:04:58.546Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:04:58.593Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:04:58.595Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:07:13.259Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:07:13.302Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:07:13.305Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:07:38.999Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:07:39.034Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:07:39.037Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:07:53.228Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:07:53.286Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:07:53.292Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:10:06.059Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:10:06.094Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:10:06.097Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:13:44.295Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:13:44.328Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:13:44.332Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T11:14:03.523Z"}
+{"level":"info","timestamp":"2020-08-19T11:14:03.524Z"}
+{"level":"info","timestamp":"2020-08-19T11:14:03.525Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T11:14:22.126Z"}
+{"level":"info","timestamp":"2020-08-19T11:14:22.127Z"}
+{"level":"info","timestamp":"2020-08-19T11:14:22.127Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:15:54.439Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:15:54.504Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:15:54.511Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T11:17:43.203Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:32:38.915Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:32:38.942Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:32:38.944Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:35:53.986Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:35:54.016Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:35:54.019Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:36:01.233Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:36:01.260Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:36:01.263Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:36:29.031Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:36:29.059Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:36:29.061Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:40:07.530Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:40:07.560Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:40:07.562Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:41:06.419Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:41:06.480Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:41:06.483Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:45:13.900Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:45:13.932Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:45:13.934Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:46:46.756Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:46:46.786Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:46:46.788Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:47:30.547Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:47:30.575Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:47:30.578Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:48:33.379Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:48:33.404Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:48:33.406Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:48:59.796Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:48:59.822Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:48:59.826Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T11:49:35.016Z"}
+{"level":"info","timestamp":"2020-08-19T11:49:35.017Z"}
+{"level":"info","timestamp":"2020-08-19T11:49:35.017Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T11:55:40.875Z"}
+{"level":"info","timestamp":"2020-08-19T11:55:40.875Z"}
+{"level":"info","timestamp":"2020-08-19T11:55:40.875Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:56:52.868Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:56:52.895Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:56:52.898Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:57:12.914Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:57:12.953Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:57:12.955Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:57:28.305Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:57:28.345Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:57:28.348Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:59:25.653Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:59:25.680Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:59:25.682Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T11:59:41.631Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T11:59:41.664Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T11:59:41.666Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:01:52.822Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:01:52.848Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:01:52.850Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:02:49.462Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:02:49.588Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:02:49.593Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:04:06.421Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:04:06.461Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:04:06.468Z"}
+{"message":{},"level":"info","timestamp":"2020-08-19T12:04:20.813Z"}
+{"level":"info","timestamp":"2020-08-19T12:04:20.815Z"}
+{"level":"info","timestamp":"2020-08-19T12:04:20.816Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:05:18.305Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:05:18.357Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:05:18.367Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:05:32.255Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:05:32.281Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:05:32.283Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:05:36.612Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:05:36.645Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:05:36.647Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:06:07.263Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:06:07.298Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:06:07.302Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T12:06:10.447Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T12:06:10.517Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T12:06:10.536Z"}
