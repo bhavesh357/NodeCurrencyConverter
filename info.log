@@ -66,3 +66,78 @@
 {"message":"CAD","level":"info","timestamp":"2020-08-19T10:01:45.345Z"}
 {"message":0.9554317989308272,"level":"info","timestamp":"2020-08-19T10:01:45.345Z"}
 {"message":0.9554,"level":"info","timestamp":"2020-08-19T10:01:45.345Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:05:16.499Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:05:16.552Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:05:16.555Z"}
+{"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-19T10:05:16.649Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-19T10:05:16.650Z"}
+{"message":"USD","level":"info","timestamp":"2020-08-19T10:05:16.651Z"}
+{"message":"INR","level":"info","timestamp":"2020-08-19T10:05:16.651Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:05:16.652Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:05:16.652Z"}
+{"message":{"currencyOne":"EUR","currencyTwo":"GBP"},"level":"info","timestamp":"2020-08-19T10:05:16.666Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-19T10:05:16.666Z"}
+{"message":"EUR","level":"info","timestamp":"2020-08-19T10:05:16.666Z"}
+{"message":"GBP","level":"info","timestamp":"2020-08-19T10:05:16.666Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-19T10:05:16.666Z"}
+{"message":0.9018,"level":"info","timestamp":"2020-08-19T10:05:16.666Z"}
+{"message":{"currencyOne":"AUD","currencyTwo":"CAD"},"level":"info","timestamp":"2020-08-19T10:05:16.676Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-19T10:05:16.676Z"}
+{"message":"AUD","level":"info","timestamp":"2020-08-19T10:05:16.676Z"}
+{"message":"CAD","level":"info","timestamp":"2020-08-19T10:05:16.676Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-19T10:05:16.676Z"}
+{"message":0.9554,"level":"info","timestamp":"2020-08-19T10:05:16.676Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:08:58.921Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:08:58.960Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:08:58.964Z"}
+{"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-19T10:08:59.062Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-19T10:08:59.064Z"}
+{"message":"USD","level":"info","timestamp":"2020-08-19T10:08:59.064Z"}
+{"message":"INR","level":"info","timestamp":"2020-08-19T10:08:59.065Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:08:59.065Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:08:59.065Z"}
+{"message":{"currencyOne":"EUR","currencyTwo":"GBP"},"level":"info","timestamp":"2020-08-19T10:08:59.079Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-19T10:08:59.079Z"}
+{"message":"EUR","level":"info","timestamp":"2020-08-19T10:08:59.079Z"}
+{"message":"GBP","level":"info","timestamp":"2020-08-19T10:08:59.079Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-19T10:08:59.079Z"}
+{"message":0.9018,"level":"info","timestamp":"2020-08-19T10:08:59.080Z"}
+{"message":{"currencyOne":"AUD","currencyTwo":"CAD"},"level":"info","timestamp":"2020-08-19T10:08:59.088Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-19T10:08:59.089Z"}
+{"message":"AUD","level":"info","timestamp":"2020-08-19T10:08:59.089Z"}
+{"message":"CAD","level":"info","timestamp":"2020-08-19T10:08:59.089Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-19T10:08:59.089Z"}
+{"message":0.9554,"level":"info","timestamp":"2020-08-19T10:08:59.089Z"}
+{"message":{"currencyOne":"SGD","currencyTwo":"CNY"},"level":"info","timestamp":"2020-08-19T10:08:59.102Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-19T10:08:59.103Z"}
+{"message":"SGD","level":"info","timestamp":"2020-08-19T10:08:59.103Z"}
+{"message":"CNY","level":"info","timestamp":"2020-08-19T10:08:59.103Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-19T10:08:59.103Z"}
+{"message":5.0654,"level":"info","timestamp":"2020-08-19T10:08:59.103Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T10:09:25.991Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T10:09:26.036Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T10:09:26.039Z"}
+{"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-19T10:09:26.144Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-19T10:09:26.146Z"}
+{"message":"USD","level":"info","timestamp":"2020-08-19T10:09:26.146Z"}
+{"message":"INR","level":"info","timestamp":"2020-08-19T10:09:26.146Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:09:26.147Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T10:09:26.147Z"}
+{"message":{"currencyOne":"EUR","currencyTwo":"GBP"},"level":"info","timestamp":"2020-08-19T10:09:26.160Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-19T10:09:26.160Z"}
+{"message":"EUR","level":"info","timestamp":"2020-08-19T10:09:26.160Z"}
+{"message":"GBP","level":"info","timestamp":"2020-08-19T10:09:26.160Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-19T10:09:26.161Z"}
+{"message":0.9018,"level":"info","timestamp":"2020-08-19T10:09:26.161Z"}
+{"message":{"currencyOne":"AUD","currencyTwo":"CAD"},"level":"info","timestamp":"2020-08-19T10:09:26.180Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-19T10:09:26.180Z"}
+{"message":"AUD","level":"info","timestamp":"2020-08-19T10:09:26.180Z"}
+{"message":"CAD","level":"info","timestamp":"2020-08-19T10:09:26.181Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-19T10:09:26.181Z"}
+{"message":0.9554,"level":"info","timestamp":"2020-08-19T10:09:26.181Z"}
+{"message":{"currencyOne":"SGD","currencyTwo":"CNY"},"level":"info","timestamp":"2020-08-19T10:09:26.198Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-19T10:09:26.198Z"}
+{"message":"SGD","level":"info","timestamp":"2020-08-19T10:09:26.198Z"}
+{"message":"CNY","level":"info","timestamp":"2020-08-19T10:09:26.198Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-19T10:09:26.199Z"}
+{"message":5.0654,"level":"info","timestamp":"2020-08-19T10:09:26.199Z"}

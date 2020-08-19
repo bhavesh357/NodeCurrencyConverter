@@ -88,6 +88,10 @@ module.exports = class currencyService {
             return 54.3677;
             case 'CAD':
             return 56.9038;
+            case 'SGD':
+            return 54.8654;
+            case 'CNY':
+            return 10.8314;
             case 'INR':
             return 1;
             default:
