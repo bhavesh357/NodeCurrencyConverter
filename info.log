@@ -13,3 +13,15 @@
 {"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-18T21:16:31.455Z"}
 {"level":"info","message":"USD","timestamp":"2020-08-18T21:16:31.456Z"}
 {"message":74.5809,"level":"info","timestamp":"2020-08-18T21:16:31.457Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T09:32:10.016Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T09:32:10.184Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T09:32:10.187Z"}
+{"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-19T09:32:10.651Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-19T09:32:10.652Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T09:32:10.782Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-19T09:32:34.112Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-19T09:32:34.195Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-19T09:32:34.197Z"}
+{"message":{"currencyOne":"USD","currencyTwo":"INR"},"level":"info","timestamp":"2020-08-19T09:32:34.389Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-19T09:32:34.390Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-19T09:32:34.396Z"}

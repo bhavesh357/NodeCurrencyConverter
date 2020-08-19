@@ -19,22 +19,7 @@ describe('Currency Converter Test', () => {
                 done();
             } );
         });
-
-        it('GET /currency/convert returns converted currency', (done) => {
-            chai.request(app)
-            .get('/currency/convert')
-            .send({
-                'currencyOne':'USD',
-                'currencyTwo':'INR',
-            })
-            .end( ( err , response ) => {
-                result = response.body;
-                console.log(result);
-                assert.equal(result.value,74.5809);
-                done();
-            } );
-        });
-
+        
         /*
         it('POST /currency returns all Currency', (done) => {
             chai.request(app)
@@ -51,4 +36,22 @@ describe('Currency Converter Test', () => {
         });
         */
     });
-} );
+    
+    describe('Conversion Currency Test', () => {
+        
+        it('GET /currency/convert returns converted currency', (done) => {
+            chai.request(app)
+            .get('/currency/convert')
+            .send({
+                'currencyOne':'USD',
+                'currencyTwo':'INR',
+            })
+            .end( ( err , response ) => {
+                result = response.body;
+                console.log(result);
+                assert.equal(result.value,74.5809);
+                done();
+            } );
+        });
+    } );
+});
