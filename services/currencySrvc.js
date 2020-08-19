@@ -92,6 +92,10 @@ module.exports = class currencyService {
             return 54.8654;
             case 'CNY':
             return 10.8314;
+            case 'KRW':
+            return 0.0635;
+            case 'JPY':
+            return 0.7101;
             case 'INR':
             return 1;
             default:

@@ -99,5 +99,19 @@ describe('Currency Converter Test', () => {
             } );
         });
 
+        it('GET /currency/convert returns Eur to GBP', (done) => {
+            chai.request(app)
+            .get('/currency/convert')
+            .send({
+                'currencyOne':'KRW',
+                'currencyTwo':'JPY',
+            })
+            .end( ( err , response ) => {
+                result = response.body;
+                console.log(result);
+                assert.equal(result.value,0.0894);
+                done();
+            } );
+        });
     } );
 });
