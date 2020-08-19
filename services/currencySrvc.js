@@ -64,7 +64,9 @@ module.exports = class currencyService {
      */
     getRate(currencyOne,currencyTwo){
         logger.info(currencyOne,currencyTwo);
-        const value = this.convertToBase(currencyOne)/this.convertToBase(currencyTwo);
+        let value = this.convertToBase(currencyOne)/this.convertToBase(currencyTwo);
+        logger.info(value);
+        value= this.round(value);
         logger.info(value);
         return value;
     }
@@ -74,14 +76,23 @@ module.exports = class currencyService {
      * @param {object} currency
      */
     convertToBase(currency){
-        console.log(currency);
-        if(currency==='USD'){
-            return 74.5809;
-        }
-        if(currency==='INR'){
-            return 1;
-        }
-        throw new Error('Invalid Currency'); 
+        logger.info(currency);
+        switch(currency){
+            case 'USD':
+                return 74.5809;
+            case 'EUR':
+                return 89.3634;
+            case 'GBP':
+                return 99.0918;
+            case 'INR':
+                return 1;
+            default:
+                throw new Error('Invalid Currency'); 
+        } 
+    }
+
+    round(value) {
+        return Number((value).toFixed(4));;
     }
 
 };
