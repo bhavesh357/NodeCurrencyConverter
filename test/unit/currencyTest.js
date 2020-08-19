@@ -68,5 +68,21 @@ describe('Currency Converter Test', () => {
                 done();
             } );
         });
+
+        it('GET /currency/convert returns Eur to GBP', (done) => {
+            chai.request(app)
+            .get('/currency/convert')
+            .send({
+                'currencyOne':'AUD',
+                'currencyTwo':'CAD',
+            })
+            .end( ( err , response ) => {
+                result = response.body;
+                console.log(result);
+                assert.equal(result.value,0.9554);
+                done();
+            } );
+        });
+
     } );
 });
