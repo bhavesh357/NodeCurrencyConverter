@@ -27,7 +27,7 @@ module.exports = (app) => {
     /**
     * @swagger
     * /currency/convert:
-    *  get:
+    *  post:
     *      description: Used to get conversion rate
     *      parameters:
     *       - in: body
@@ -43,7 +43,7 @@ module.exports = (app) => {
     *          '200':
     *              description: A Successful response
     */
-    app.get('/currency/convert', currency.convert);
+    app.post('/currency/convert', currency.convert);
     
     app.post('/currency/', currency.add );
 };
