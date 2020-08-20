@@ -39,9 +39,9 @@ describe('Currency Converter Test', () => {
     
     describe('Conversion Currency Test', () => {
         
-        it('GET /currency/convert returns converted currency', (done) => {
+        it('POST /currency/convert returns converted currency', (done) => {
             chai.request(app)
-            .get('/currency/convert')
+            .post('/currency/convert')
             .send({
                 'currencyOne':'USD',
                 'currencyTwo':'INR',
@@ -54,9 +54,9 @@ describe('Currency Converter Test', () => {
             } );
         });
 
-        it('GET /currency/convert returns Eur to GBP', (done) => {
+        it('POST /currency/convert returns Eur to GBP', (done) => {
             chai.request(app)
-            .get('/currency/convert')
+            .post('/currency/convert')
             .send({
                 'currencyOne':'EUR',
                 'currencyTwo':'GBP',
@@ -69,9 +69,9 @@ describe('Currency Converter Test', () => {
             } );
         });
 
-        it('GET /currency/convert returns Eur to GBP', (done) => {
+        it('POST /currency/convert returns Eur to GBP', (done) => {
             chai.request(app)
-            .get('/currency/convert')
+            .post('/currency/convert')
             .send({
                 'currencyOne':'AUD',
                 'currencyTwo':'CAD',
@@ -84,9 +84,9 @@ describe('Currency Converter Test', () => {
             } );
         });
 
-        it('GET /currency/convert returns Eur to GBP', (done) => {
+        it('POST /currency/convert returns Eur to GBP', (done) => {
             chai.request(app)
-            .get('/currency/convert')
+            .post('/currency/convert')
             .send({
                 'currencyOne':'SGD',
                 'currencyTwo':'CNY',
@@ -99,9 +99,9 @@ describe('Currency Converter Test', () => {
             } );
         });
 
-        it('GET /currency/convert returns Eur to GBP', (done) => {
+        it('POST /currency/convert returns Eur to GBP', (done) => {
             chai.request(app)
-            .get('/currency/convert')
+            .post('/currency/convert')
             .send({
                 'currencyOne':'KRW',
                 'currencyTwo':'JPY',

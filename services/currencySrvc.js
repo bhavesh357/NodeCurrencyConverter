@@ -112,7 +112,7 @@ module.exports = class currencyService {
      * @param {Number} value 
      */
     round(value) {
-        return Number((value).toFixed(4));;
+        return Number((value).toFixed(4));
     }
     
 };
