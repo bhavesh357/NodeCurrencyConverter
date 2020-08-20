@@ -35,6 +35,8 @@ module.exports = class currencyService {
         const currency = new Currency({
             shortName: reqBody.shortName,
             longName: reqBody.longName,
+            currentRate: reqBody.currentRate,
+            previousRate: reqBody.previousRate
         });
         
         currency.save()
@@ -52,10 +54,14 @@ module.exports = class currencyService {
     * @param {object} res response 
     * @param {object} callback callback function
     */
-    convert(reqBody,res,callback){
+    async convert(reqBody,res,callback){
         try{
             logger.info(reqBody);
-            callback(res,{'value':this.getRate(reqBody.currencyOne,reqBody.currencyTwo)});
+            let values = await this.getRate(reqBody.currencyOne,reqBody.currencyTwo);
+            callback(res,{
+                'value':values[0],
+                'previousValue':values[1]
+            });
         }catch (err){
             callback(res,res.status(500).send({'error':err.message}));
         }
@@ -66,46 +72,46 @@ module.exports = class currencyService {
     * @param {object} currencyOne
     * @param {object} currencyTwo
     */
-    getRate(currencyOne,currencyTwo){
+    async getRate(currencyOne,currencyTwo){
         logger.info(currencyOne,currencyTwo);
-        let value = this.convertToBase(currencyOne)/this.convertToBase(currencyTwo);
+        let currencyOneRate;
+        let currencyTwoRate;
+        let currencyOnePreviousRate;
+        let currencyTwoPreviousRate;
+
+        let currencyOneValues = await this.getCurrencyValues(currencyOne);
+        currencyOneRate = currencyOneValues[0];
+        currencyOnePreviousRate = currencyOneValues[1];
+
+        let currencyTwoValues = await this.getCurrencyValues(currencyTwo);
+        currencyTwoRate = currencyTwoValues[0];
+        currencyTwoPreviousRate = currencyTwoValues[1];
+
+        let value = currencyOneRate/currencyTwoRate;
+        let previousValue = currencyOnePreviousRate/currencyTwoPreviousRate;
         logger.info(value);
         value= this.round(value);
-        logger.info(value);
-        return value;
+        previousValue = this.round(previousValue);
+        logger.info(previousValue);
+        return [value,previousValue];
     }
-    
+
     /**
-    * @description function to get converted to base unit
-    * @param {object} currency
-    */
-    convertToBase(currency){
-        logger.info(currency);
-        switch(currency){
-            case 'USD':
-            return 74.5809;
-            case 'EUR':
-            return 89.3634;
-            case 'GBP':
-            return 99.0918;
-            case 'AUD':
-            return 54.3677;
-            case 'CAD':
-            return 56.9038;
-            case 'SGD':
-            return 54.8654;
-            case 'CNY':
-            return 10.8314;
-            case 'KRW':
-            return 0.0635;
-            case 'JPY':
-            return 0.7101;
-            case 'INR':
-            return 1;
-            default:
+     * @description a function to get rates
+     * @param {string} currency currency short name
+     */
+    async getCurrencyValues(currency) {
+        return await Currency.findOne({
+            'shortName':currency,
+        })
+        .then( (item) => {
+            return [item.currentRate,item.previousRate];
+        })
+        .catch( (error) => {
             throw new Error('Invalid Currency'); 
-        } 
+        }); 
     }
+
 
     /**
      * @description a function to round the number to 4 digit after dot

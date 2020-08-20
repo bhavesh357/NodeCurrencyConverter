@@ -19,18 +19,20 @@ describe('Currency Converter Test', () => {
                 done();
             } );
         });
-        
         /*
         it('POST /currency returns all Currency', (done) => {
             chai.request(app)
             .post('/currency')
             .send({
-                'shortName':'SGD',
-                'longName':'Singapore Doller',
+                'shortName':'USD',
+                'longName':'US Doller',
+                'currentRate': 74.5809,
+                'previousRate': 74.8509
             })
             .end( ( err , response ) => {
+                console.log(response.body);
                 result = response.body;
-                assert.equal(result.shortName,'GBP');
+                assert.equal(result.shortName,'USD');
                 done();
             } );
         });

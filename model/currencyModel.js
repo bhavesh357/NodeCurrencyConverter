@@ -9,6 +9,14 @@ const CurrencySchema = mongoose.Schema({
     longName: {
         type: String,
         required: [true, ''],
+    },
+    currentRate: {
+        type: Number,
+        required: [true, 1],
+    },
+    previousRate: {
+        type: Number,
+        required: [true, 1],
     }
 }, {
     timestamps: true,
