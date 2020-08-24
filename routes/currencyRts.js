@@ -35,9 +35,9 @@ module.exports = (app) => {
     *              type: object
     *              jsonEditor: true
     *              properties: 
-    *                  currencyOne: 
+    *                  fromCurrency: 
     *                       type: string
-    *                  currencyTwo:
+    *                  toCurrency:
     *                        type: string
     *      responses:
     *          '200':

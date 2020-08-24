@@ -45,8 +45,8 @@ describe('Currency Converter Test', () => {
             chai.request(app)
             .post('/currency/convert')
             .send({
-                'currencyOne':'USD',
-                'currencyTwo':'INR',
+                'fromCurrency':'USD',
+                'toCurrency':'INR',
             })
             .end( ( err , response ) => {
                 result = response.body;
@@ -60,8 +60,8 @@ describe('Currency Converter Test', () => {
             chai.request(app)
             .post('/currency/convert')
             .send({
-                'currencyOne':'EUR',
-                'currencyTwo':'GBP',
+                'fromCurrency':'EUR',
+                'toCurrency':'GBP',
             })
             .end( ( err , response ) => {
                 result = response.body;
@@ -75,8 +75,8 @@ describe('Currency Converter Test', () => {
             chai.request(app)
             .post('/currency/convert')
             .send({
-                'currencyOne':'AUD',
-                'currencyTwo':'CAD',
+                'fromCurrency':'AUD',
+                'toCurrency':'CAD',
             })
             .end( ( err , response ) => {
                 result = response.body;
@@ -90,8 +90,8 @@ describe('Currency Converter Test', () => {
             chai.request(app)
             .post('/currency/convert')
             .send({
-                'currencyOne':'SGD',
-                'currencyTwo':'CNY',
+                'fromCurrency':'SGD',
+                'toCurrency':'CNY',
             })
             .end( ( err , response ) => {
                 result = response.body;
@@ -105,8 +105,8 @@ describe('Currency Converter Test', () => {
             chai.request(app)
             .post('/currency/convert')
             .send({
-                'currencyOne':'KRW',
-                'currencyTwo':'JPY',
+                'fromCurrency':'KRW',
+                'toCurrency':'JPY',
             })
             .end( ( err , response ) => {
                 result = response.body;

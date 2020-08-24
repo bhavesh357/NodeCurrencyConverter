@@ -57,7 +57,7 @@ module.exports = class currencyService {
     async convert(reqBody,res,callback){
         try{
             logger.info(reqBody);
-            let values = await this.getRate(reqBody.currencyOne,reqBody.currencyTwo);
+            let values = await this.getRate(reqBody.fromCurrency,reqBody.toCurrency);
             callback(res,{
                 'value':values[0],
                 'previousValue':values[1]
@@ -69,26 +69,26 @@ module.exports = class currencyService {
     
     /**
     * @description function to get rate
-    * @param {object} currencyOne
-    * @param {object} currencyTwo
+    * @param {object} fromCurrency
+    * @param {object} toCurrency
     */
-    async getRate(currencyOne,currencyTwo){
-        logger.info(currencyOne,currencyTwo);
-        let currencyOneRate;
-        let currencyTwoRate;
-        let currencyOnePreviousRate;
-        let currencyTwoPreviousRate;
+    async getRate(fromCurrency,toCurrency){
+        logger.info(fromCurrency,toCurrency);
+        let fromCurrencyRate;
+        let toCurrencyRate;
+        let fromCurrencyPreviousRate;
+        let toCurrencyPreviousRate;
 
-        let currencyOneValues = await this.getCurrencyValues(currencyOne);
-        currencyOneRate = currencyOneValues[0];
-        currencyOnePreviousRate = currencyOneValues[1];
+        let fromCurrencyValues = await this.getCurrencyValues(fromCurrency);
+        fromCurrencyRate = fromCurrencyValues[0];
+        fromCurrencyPreviousRate = fromCurrencyValues[1];
 
-        let currencyTwoValues = await this.getCurrencyValues(currencyTwo);
-        currencyTwoRate = currencyTwoValues[0];
-        currencyTwoPreviousRate = currencyTwoValues[1];
+        let toCurrencyValues = await this.getCurrencyValues(toCurrency);
+        toCurrencyRate = toCurrencyValues[0];
+        toCurrencyPreviousRate = toCurrencyValues[1];
 
-        let value = currencyOneRate/currencyTwoRate;
-        let previousValue = currencyOnePreviousRate/currencyTwoPreviousRate;
+        let value = fromCurrencyRate/toCurrencyRate;
+        let previousValue = fromCurrencyPreviousRate/toCurrencyPreviousRate;
         logger.info(value);
         value= this.round(value);
         previousValue = this.round(previousValue);
