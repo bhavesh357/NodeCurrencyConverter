@@ -19,9 +19,9 @@ module.exports = class currencyService {
             if (!item) {
                 throw new Error();
             }
-            callback(res,item);
+            callback(res,true,"Found All Items",item);
         }).catch( (err) => {
-            callback(res,{'error':'Currencies not found'});
+            callback(res,false,"Could not found items",{'error':'Currencies not found'});
         });
     }
     
@@ -41,10 +41,10 @@ module.exports = class currencyService {
         
         currency.save()
         .then((item) => {
-            callback(res,item)
+            callback(res,true,"Added item",item);
         })
         .catch((err) => {
-            callback(res,{'error':'couldn\'t create currency'})
+            callback(res,false,"Could not Add item",{'error':'Currencies not added  '});
         });
     }
     
@@ -58,12 +58,12 @@ module.exports = class currencyService {
         try{
             logger.info(reqBody);
             let values = await this.getRate(reqBody.fromCurrency,reqBody.toCurrency);
-            callback(res,{
+            callback(res,true,"Added item",{
                 'value':values[0],
                 'previousValue':values[1]
             });
         }catch (err){
-            callback(res,res.status(500).send({'error':err.message}));
+            callback(res,false,"Currencies could not be converted",{'error':'Currencies could not be converted'});
         }
     }
     

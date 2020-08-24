@@ -17,7 +17,11 @@ module.exports = class currencyController {
     */
     findAll(req, res) {
         try {
-            currency.findAll(res,(res,item) => {res.send(item)});
+            currency.findAll(res,(res,isSuccessful,message,item) => {res.send({
+                isSuccessful: isSuccessful,
+                message: message,
+                data: item
+            })});
         } catch (err) {
             res.status(500).send(err);
         }
@@ -30,7 +34,11 @@ module.exports = class currencyController {
      */
     add(req, res){
         try {
-            currency.save(req.body , res,(res,item) => {res.send(item)});
+            currency.save(req.body , res,(res,isSuccessful,message,item) => {res.send({
+                isSuccessful: isSuccessful,
+                message: message,
+                data: item
+            })});
         } catch (err) {
             res.status(500).send(err);
         }
@@ -43,7 +51,11 @@ module.exports = class currencyController {
      */
     convert(req, res){
         try{
-            currency.convert(req.body,res,(res,item) => {res.send(item)});
+            currency.convert(req.body,res,(res,isSuccessful,message,item) => {res.send({
+                isSuccessful: isSuccessful,
+                message: message,
+                data: item
+            })});
         }catch (err){
             res.status(500).send(err);
         }

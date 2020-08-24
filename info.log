@@ -1354,3 +1354,55 @@
 {"level":"info","message":"SGD","timestamp":"2020-08-24T17:49:13.669Z"}
 {"message":0.9641781392455337,"level":"info","timestamp":"2020-08-24T17:49:13.679Z"}
 {"message":0.9594,"level":"info","timestamp":"2020-08-24T17:49:13.679Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:39:20.046Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:39:20.087Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:39:20.092Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:40:01.847Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:40:01.869Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:40:01.872Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:40:16.245Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:40:16.283Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:40:16.286Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:42:08.550Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:42:08.600Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:42:08.607Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:43:06.554Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:43:06.589Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:43:06.592Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:44:07.533Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:44:07.576Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:44:07.580Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:44:57.186Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:44:57.220Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:44:57.223Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:45:10.256Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:45:10.285Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:45:10.287Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:45:34.945Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:45:34.977Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:45:34.979Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:46:05.896Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:46:05.942Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:46:05.948Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:46:49.711Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:46:49.763Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:46:49.784Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:46:57.392Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:46:57.444Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:46:57.446Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T18:47:55.823Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T18:47:55.826Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T18:47:55.842Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T18:47:55.843Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T18:47:59.939Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T18:47:59.939Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T18:47:59.951Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T18:47:59.952Z"}
+{"message":{"fromCurrency":"JPY","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T18:48:02.395Z"}
+{"level":"info","message":"JPY","timestamp":"2020-08-24T18:48:02.396Z"}
+{"message":0.7101,"level":"info","timestamp":"2020-08-24T18:48:02.405Z"}
+{"message":0.7701,"level":"info","timestamp":"2020-08-24T18:48:02.406Z"}
+{"message":{"fromCurrency":"JPY","toCurrency":"CNY"},"level":"info","timestamp":"2020-08-24T18:48:05.098Z"}
+{"level":"info","message":"JPY","timestamp":"2020-08-24T18:48:05.099Z"}
+{"message":0.0655593921376738,"level":"info","timestamp":"2020-08-24T18:48:05.108Z"}
+{"message":0.0702,"level":"info","timestamp":"2020-08-24T18:48:05.109Z"}
