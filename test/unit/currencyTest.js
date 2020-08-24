@@ -15,7 +15,7 @@ describe('Currency Converter Test', () => {
             .get('/currency')
             .end( ( err , response ) => {
                 result = response.body;
-                assert.equal(result.length,10);
+                assert.equal(result.data.length,10);
                 done();
             } );
         });
@@ -51,7 +51,7 @@ describe('Currency Converter Test', () => {
             .end( ( err , response ) => {
                 result = response.body;
                 console.log(result);
-                assert.equal(result.value,74.5809);
+                assert.equal(result.data.value,74.5809);
                 done();
             } );
         });
@@ -66,7 +66,7 @@ describe('Currency Converter Test', () => {
             .end( ( err , response ) => {
                 result = response.body;
                 console.log(result);
-                assert.equal(result.value,0.9018);
+                assert.equal(result.data.value,0.9018);
                 done();
             } );
         });
@@ -81,7 +81,7 @@ describe('Currency Converter Test', () => {
             .end( ( err , response ) => {
                 result = response.body;
                 console.log(result);
-                assert.equal(result.value,0.9554);
+                assert.equal(result.data.value,0.9554);
                 done();
             } );
         });
@@ -96,7 +96,7 @@ describe('Currency Converter Test', () => {
             .end( ( err , response ) => {
                 result = response.body;
                 console.log(result);
-                assert.equal(result.value,5.0654);
+                assert.equal(result.data.value,5.0654);
                 done();
             } );
         });
@@ -111,7 +111,7 @@ describe('Currency Converter Test', () => {
             .end( ( err , response ) => {
                 result = response.body;
                 console.log(result);
-                assert.equal(result.value,0.0894);
+                assert.equal(result.data.value,0.0894);
                 done();
             } );
         });

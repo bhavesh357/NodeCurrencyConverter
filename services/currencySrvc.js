@@ -14,7 +14,7 @@ module.exports = class currencyService {
     * @return {object} array of greetings
     */
     findAll(res,callback) {
-        Currency.find()
+        Currency.find().select('shortName longName -_id')
         .then( (item) => {
             if (!item) {
                 throw new Error();

@@ -1406,3 +1406,147 @@
 {"level":"info","message":"JPY","timestamp":"2020-08-24T18:48:05.099Z"}
 {"message":0.0655593921376738,"level":"info","timestamp":"2020-08-24T18:48:05.108Z"}
 {"message":0.0702,"level":"info","timestamp":"2020-08-24T18:48:05.109Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:53:06.521Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:53:06.550Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:53:06.553Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T18:53:50.045Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:53:50.081Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:53:50.084Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T18:54:14.415Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T18:54:14.430Z"}
+{"message":{"fromCurrency":"USD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T18:54:14.698Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-24T18:54:14.700Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-24T18:54:14.716Z"}
+{"message":74.8509,"level":"info","timestamp":"2020-08-24T18:54:14.716Z"}
+{"message":{"fromCurrency":"EUR","toCurrency":"GBP"},"level":"info","timestamp":"2020-08-24T18:54:14.757Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-24T18:54:14.758Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-24T18:54:14.770Z"}
+{"message":0.9085,"level":"info","timestamp":"2020-08-24T18:54:14.770Z"}
+{"message":{"fromCurrency":"AUD","toCurrency":"CAD"},"level":"info","timestamp":"2020-08-24T18:54:14.803Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-24T18:54:14.803Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-24T18:54:14.816Z"}
+{"message":0.9555,"level":"info","timestamp":"2020-08-24T18:54:14.816Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"CNY"},"level":"info","timestamp":"2020-08-24T18:54:14.831Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T18:54:14.832Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-24T18:54:14.849Z"}
+{"message":5.0033,"level":"info","timestamp":"2020-08-24T18:54:14.850Z"}
+{"message":{"fromCurrency":"KRW","toCurrency":"JPY"},"level":"info","timestamp":"2020-08-24T18:54:14.878Z"}
+{"level":"info","message":"KRW","timestamp":"2020-08-24T18:54:14.878Z"}
+{"message":0.08942402478524153,"level":"info","timestamp":"2020-08-24T18:54:14.886Z"}
+{"message":0.0915,"level":"info","timestamp":"2020-08-24T18:54:14.886Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T19:00:17.582Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T19:00:17.640Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T19:00:17.646Z"}
+{"message":{"fromCurrency":"USD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:00:17.746Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-24T19:00:17.747Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-24T19:00:17.759Z"}
+{"message":74.8509,"level":"info","timestamp":"2020-08-24T19:00:17.759Z"}
+{"message":{"fromCurrency":"EUR","toCurrency":"GBP"},"level":"info","timestamp":"2020-08-24T19:00:17.782Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-24T19:00:17.782Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-24T19:00:17.790Z"}
+{"message":0.9085,"level":"info","timestamp":"2020-08-24T19:00:17.790Z"}
+{"message":{"fromCurrency":"AUD","toCurrency":"CAD"},"level":"info","timestamp":"2020-08-24T19:00:17.805Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-24T19:00:17.806Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-24T19:00:17.812Z"}
+{"message":0.9555,"level":"info","timestamp":"2020-08-24T19:00:17.812Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"CNY"},"level":"info","timestamp":"2020-08-24T19:00:17.828Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:00:17.828Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-24T19:00:17.834Z"}
+{"message":5.0033,"level":"info","timestamp":"2020-08-24T19:00:17.834Z"}
+{"message":{"fromCurrency":"KRW","toCurrency":"JPY"},"level":"info","timestamp":"2020-08-24T19:00:17.854Z"}
+{"level":"info","message":"KRW","timestamp":"2020-08-24T19:00:17.855Z"}
+{"message":0.08942402478524153,"level":"info","timestamp":"2020-08-24T19:00:17.862Z"}
+{"message":0.0915,"level":"info","timestamp":"2020-08-24T19:00:17.862Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T19:01:00.955Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T19:01:00.996Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T19:01:00.999Z"}
+{"message":{"fromCurrency":"USD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:01:01.138Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-24T19:01:01.139Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-24T19:01:01.150Z"}
+{"message":74.8509,"level":"info","timestamp":"2020-08-24T19:01:01.150Z"}
+{"message":{"fromCurrency":"EUR","toCurrency":"GBP"},"level":"info","timestamp":"2020-08-24T19:01:01.193Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-24T19:01:01.193Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-24T19:01:01.200Z"}
+{"message":0.9085,"level":"info","timestamp":"2020-08-24T19:01:01.200Z"}
+{"message":{"fromCurrency":"AUD","toCurrency":"CAD"},"level":"info","timestamp":"2020-08-24T19:01:01.226Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-24T19:01:01.226Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-24T19:01:01.232Z"}
+{"message":0.9555,"level":"info","timestamp":"2020-08-24T19:01:01.232Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"CNY"},"level":"info","timestamp":"2020-08-24T19:01:01.247Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:01:01.247Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-24T19:01:01.254Z"}
+{"message":5.0033,"level":"info","timestamp":"2020-08-24T19:01:01.254Z"}
+{"message":{"fromCurrency":"KRW","toCurrency":"JPY"},"level":"info","timestamp":"2020-08-24T19:01:01.276Z"}
+{"level":"info","message":"KRW","timestamp":"2020-08-24T19:01:01.276Z"}
+{"message":0.08942402478524153,"level":"info","timestamp":"2020-08-24T19:01:01.283Z"}
+{"message":0.0915,"level":"info","timestamp":"2020-08-24T19:01:01.283Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T19:01:46.865Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T19:01:46.928Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T19:01:46.931Z"}
+{"message":{"fromCurrency":"USD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:01:47.032Z"}
+{"level":"info","message":"USD","timestamp":"2020-08-24T19:01:47.034Z"}
+{"message":74.5809,"level":"info","timestamp":"2020-08-24T19:01:47.045Z"}
+{"message":74.8509,"level":"info","timestamp":"2020-08-24T19:01:47.046Z"}
+{"message":{"fromCurrency":"EUR","toCurrency":"GBP"},"level":"info","timestamp":"2020-08-24T19:01:47.060Z"}
+{"level":"info","message":"EUR","timestamp":"2020-08-24T19:01:47.061Z"}
+{"message":0.9018243689185179,"level":"info","timestamp":"2020-08-24T19:01:47.068Z"}
+{"message":0.9085,"level":"info","timestamp":"2020-08-24T19:01:47.069Z"}
+{"message":{"fromCurrency":"AUD","toCurrency":"CAD"},"level":"info","timestamp":"2020-08-24T19:01:47.092Z"}
+{"level":"info","message":"AUD","timestamp":"2020-08-24T19:01:47.093Z"}
+{"message":0.9554317989308272,"level":"info","timestamp":"2020-08-24T19:01:47.100Z"}
+{"message":0.9555,"level":"info","timestamp":"2020-08-24T19:01:47.100Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"CNY"},"level":"info","timestamp":"2020-08-24T19:01:47.117Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:01:47.117Z"}
+{"message":5.065402441051019,"level":"info","timestamp":"2020-08-24T19:01:47.124Z"}
+{"message":5.0033,"level":"info","timestamp":"2020-08-24T19:01:47.124Z"}
+{"message":{"fromCurrency":"KRW","toCurrency":"JPY"},"level":"info","timestamp":"2020-08-24T19:01:47.147Z"}
+{"level":"info","message":"KRW","timestamp":"2020-08-24T19:01:47.148Z"}
+{"message":0.08942402478524153,"level":"info","timestamp":"2020-08-24T19:01:47.153Z"}
+{"message":0.0915,"level":"info","timestamp":"2020-08-24T19:01:47.153Z"}
+{"message":"server is listening on port 3000","level":"info","timestamp":"2020-08-24T19:04:40.474Z"}
+{"message":"mongoose connected","level":"info","timestamp":"2020-08-24T19:04:40.503Z"}
+{"message":"Successfully Connected to batabase","level":"info","timestamp":"2020-08-24T19:04:40.505Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:10:06.156Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:10:06.157Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T19:10:06.170Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T19:10:06.170Z"}
+{"message":{"fromCurrency":"JPY","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:10:08.723Z"}
+{"level":"info","message":"JPY","timestamp":"2020-08-24T19:10:08.724Z"}
+{"message":0.7101,"level":"info","timestamp":"2020-08-24T19:10:08.739Z"}
+{"message":0.7701,"level":"info","timestamp":"2020-08-24T19:10:08.740Z"}
+{"message":{"fromCurrency":"CAD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:10:12.317Z"}
+{"level":"info","message":"CAD","timestamp":"2020-08-24T19:10:12.317Z"}
+{"message":56.9038,"level":"info","timestamp":"2020-08-24T19:10:12.325Z"}
+{"message":57.2138,"level":"info","timestamp":"2020-08-24T19:10:12.326Z"}
+{"message":{"fromCurrency":"JPY","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:10:17.699Z"}
+{"level":"info","message":"JPY","timestamp":"2020-08-24T19:10:17.700Z"}
+{"message":0.7101,"level":"info","timestamp":"2020-08-24T19:10:17.715Z"}
+{"message":0.7701,"level":"info","timestamp":"2020-08-24T19:10:17.715Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:10:21.887Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:10:21.887Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T19:10:21.895Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T19:10:21.896Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:11:18.903Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:11:18.903Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T19:11:18.910Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T19:11:18.911Z"}
+{"message":{"fromCurrency":"JPY","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:11:31.761Z"}
+{"level":"info","message":"JPY","timestamp":"2020-08-24T19:11:31.762Z"}
+{"message":0.7101,"level":"info","timestamp":"2020-08-24T19:11:31.773Z"}
+{"message":0.7701,"level":"info","timestamp":"2020-08-24T19:11:31.773Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:11:52.858Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:11:52.858Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T19:11:52.867Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T19:11:52.868Z"}
+{"message":{"fromCurrency":"INR","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:11:55.414Z"}
+{"level":"info","message":"INR","timestamp":"2020-08-24T19:11:55.414Z"}
+{"message":1,"level":"info","timestamp":"2020-08-24T19:11:55.422Z"}
+{"message":1,"level":"info","timestamp":"2020-08-24T19:11:55.423Z"}
+{"message":{"fromCurrency":"SGD","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:12:31.616Z"}
+{"level":"info","message":"SGD","timestamp":"2020-08-24T19:12:31.616Z"}
+{"message":54.8654,"level":"info","timestamp":"2020-08-24T19:12:31.624Z"}
+{"message":54.8934,"level":"info","timestamp":"2020-08-24T19:12:31.624Z"}
+{"message":{"fromCurrency":"KRW","toCurrency":"INR"},"level":"info","timestamp":"2020-08-24T19:12:38.266Z"}
+{"level":"info","message":"KRW","timestamp":"2020-08-24T19:12:38.267Z"}
+{"message":0.0635,"level":"info","timestamp":"2020-08-24T19:12:38.276Z"}
+{"message":0.0705,"level":"info","timestamp":"2020-08-24T19:12:38.276Z"}
